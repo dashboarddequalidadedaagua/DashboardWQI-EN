@@ -1,5 +1,5 @@
 """
-Reading of the spreadsheet, Douglas's prediction pipeline and building of
+Reading of the spreadsheet, the original training prediction pipeline and building of
 the Excel files (no Streamlit, testable on their own).
 
 The pipeline (filter, removal of TON and WQI before the model, imputer,
@@ -336,7 +336,7 @@ def process(name, data, models):
         wqi_observed = pd.Series(np.nan, index=df_filtered.index)
 
     # -----------------------------------------------------------------------
-    # DOUGLAS'S PIPELINE (do not change): removes TON and WQI, fixed order of
+    # ORIGINAL TRAINING PIPELINE (do not change): removes TON and WQI, fixed order of
     # the variables, imputer.transform, winsorization, scaler.transform, predict.
     # -----------------------------------------------------------------------
     lr, dt, scaler, imputer = models

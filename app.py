@@ -1,6 +1,6 @@
 """
 Water Quality Dashboard (WQI)
-Undergraduate thesis (TCC) - Matteo | Machine Learning Approach
+Machine Learning Approach to WQI prediction
 
 Compares two predictive models (Linear Regression and Decision Tree) in the
 prediction of the Water Quality Index (WQI) and, if the spreadsheet has an

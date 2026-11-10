@@ -7,7 +7,7 @@ do not write texts or magic numbers on their own.
 """
 
 # ---------------------------------------------------------------------------
-# Douglas's pipeline (DO NOT CHANGE)
+# Original training pipeline (DO NOT CHANGE)
 # scaler.pk and knn_imputer.pk store feature_names_in_ with these
 # abbreviations, in this order. The same abbreviations are used everywhere:
 # inside the pipeline, in the accepted spreadsheet headers and in the output
